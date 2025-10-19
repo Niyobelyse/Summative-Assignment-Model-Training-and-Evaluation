@@ -1,0 +1,238 @@
+[
+  {
+    "experiment_id": 1,
+    "experiment_type": "Traditional ML",
+    "model_name": "Random Forest",
+    "parameters": {
+      "class_weight": null,
+      "max_depth": 20,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    "metrics": {
+      "accuracy": 0.93048128342246,
+      "precision": 0.925531914893617,
+      "recall": 0.9354838709677419,
+      "f1": 0.93048128342246,
+      "roc_auc": 0.9846145046900023
+    },
+    "feature_importance": {
+      "digital_access_composite": 0.017114717980816773,
+      "socioeconomic_score": 0.03091566543000346,
+      "support_systems": 0.031216255551438046,
+      "digital_socioeconomic_gap": 0.009644394233789749,
+      "school": 0.01135328560905709,
+      "age": 0.022270202305883998,
+      "address": 0.013628122770247119,
+      "Medu": 0.018108672856441986,
+      "Fedu": 0.02063202430958214,
+      "Mjob": 0.020826232606891548,
+      "reason": 0.021290505980637076,
+      "guardian": 0.010015470934576215,
+      "studytime": 0.027774567404482607,
+      "failures": 0.02930706221090532,
+      "famsup": 0.008848011730974,
+      "paid": 0.013007433850314049,
+      "higher": 0.015857661468141944,
+      "internet": 0.008330390458446442,
+      "romantic": 0.009637447474695483,
+      "famrel": 0.03164208849798609,
+      "freetime": 0.02142013143588083,
+      "goout": 0.024599118121125522,
+      "Walc": 0.030917059126930994,
+      "absences": 0.04493100426947108,
+      "G1": 0.5067124733812804
+    },
+    "insights": "Best F1: 0.9305",
+    "timestamp": "2025-10-19T19:48:09.573215"
+  },
+  {
+    "experiment_id": 2,
+    "experiment_type": "Traditional ML",
+    "model_name": "Gradient Boosting",
+    "parameters": {
+      "learning_rate": 0.15,
+      "max_depth": 5,
+      "min_samples_split": 5,
+      "n_estimators": 200,
+      "subsample": 0.9
+    },
+    "metrics": {
+      "accuracy": 0.946524064171123,
+      "precision": 0.9368421052631579,
+      "recall": 0.956989247311828,
+      "f1": 0.9468085106382979,
+      "roc_auc": 0.9627087622969572
+    },
+    "feature_importance": {
+      "digital_access_composite": 0.00881184538730708,
+      "socioeconomic_score": 0.028174813847913118,
+      "support_systems": 0.033716245511290314,
+      "digital_socioeconomic_gap": 0.004983715644155226,
+      "school": 0.0071305167429932285,
+      "age": 0.014200521418337293,
+      "address": 0.001142631732277661,
+      "Medu": 0.0023180744015291518,
+      "Fedu": 0.010589635532611658,
+      "Mjob": 0.01566186168803289,
+      "reason": 0.006310367193833136,
+      "guardian": 0.0024584951658312704,
+      "studytime": 0.00994867255210553,
+      "failures": 0.010159482573629868,
+      "famsup": 0.009894307975004868,
+      "paid": 0.007217406977709715,
+      "higher": 0.005264806695351737,
+      "internet": 0.004951936798673121,
+      "romantic": 0.009409473738897571,
+      "famrel": 0.026867625296801038,
+      "freetime": 0.012119596274884296,
+      "goout": 0.01737791558955614,
+      "Walc": 0.013665116681966866,
+      "absences": 0.0683001212543083,
+      "G1": 0.6693248133249989
+    },
+    "insights": "Best F1: 0.9468",
+    "timestamp": "2025-10-19T19:48:09.581032"
+  },
+  {
+    "experiment_id": 3,
+    "experiment_type": "Traditional ML",
+    "model_name": "Logistic Regression",
+    "parameters": {
+      "C": 1,
+      "class_weight": "balanced",
+      "penalty": "l1",
+      "solver": "liblinear"
+    },
+    "metrics": {
+      "accuracy": 0.9037433155080213,
+      "precision": 0.9213483146067416,
+      "recall": 0.8817204301075269,
+      "f1": 0.9010989010989011,
+      "roc_auc": 0.9579043697094487
+    },
+    "feature_importance": {
+      "digital_access_composite": 0.06694793795173795,
+      "socioeconomic_score": 0.8296546112712775,
+      "support_systems": 0.0,
+      "digital_socioeconomic_gap": 0.3454895980003177,
+      "school": 1.0105119960640925,
+      "age": 0.2046380982122882,
+      "address": 0.6881276524991665,
+      "Medu": 0.06516253736140452,
+      "Fedu": 0.46883525778116425,
+      "Mjob": 0.08263825418089951,
+      "reason": 0.47985242440242093,
+      "guardian": 0.30813293342170905,
+      "studytime": 0.027502976022814696,
+      "failures": 0.4140043771745873,
+      "famsup": 0.0,
+      "paid": 0.0,
+      "higher": 0.0,
+      "internet": 0.0,
+      "romantic": 0.14149643023378,
+      "famrel": 0.5408662744534247,
+      "freetime": 0.16001093070976943,
+      "goout": 0.3256312790237077,
+      "Walc": 0.43306878547946354,
+      "absences": 0.112782540561679,
+      "G1": 5.931471077560915
+    },
+    "insights": "Best F1: 0.9011",
+    "timestamp": "2025-10-19T19:48:09.581099"
+  },
+  {
+    "experiment_id": 4,
+    "experiment_type": "Traditional ML",
+    "model_name": "SVM",
+    "parameters": {
+      "C": 1,
+      "class_weight": null,
+      "gamma": "scale",
+      "kernel": "rbf"
+    },
+    "metrics": {
+      "accuracy": 0.9251336898395722,
+      "precision": 0.898989898989899,
+      "recall": 0.956989247311828,
+      "f1": 0.9270833333333334,
+      "roc_auc": 0.9742621825669183
+    },
+    "feature_importance": {},
+    "insights": "Best F1: 0.9271",
+    "timestamp": "2025-10-19T19:48:09.581163"
+  },
+  {
+    "experiment_id": 5,
+    "experiment_type": "Deep Learning",
+    "model_name": "Sequential_Base",
+    "parameters": {
+      "epochs": 55
+    },
+    "metrics": {
+      "accuracy": 0.93048128342246,
+      "precision": 0.9166666666666666,
+      "recall": 0.946236559139785,
+      "f1": 0.9312169312169312,
+      "roc_auc": 0.9678563257835735
+    },
+    "feature_importance": null,
+    "insights": "Trained for 55 epochs",
+    "timestamp": "2025-10-19T19:48:09.581216"
+  },
+  {
+    "experiment_id": 6,
+    "experiment_type": "Deep Learning",
+    "model_name": "Sequential_Tuned",
+    "parameters": {
+      "epochs": 57
+    },
+    "metrics": {
+      "accuracy": 0.9144385026737968,
+      "precision": 0.9052631578947369,
+      "recall": 0.9247311827956989,
+      "f1": 0.9148936170212766,
+      "roc_auc": 0.9660260809883322
+    },
+    "feature_importance": null,
+    "insights": "Trained for 57 epochs",
+    "timestamp": "2025-10-19T19:48:09.581263"
+  },
+  {
+    "experiment_id": 7,
+    "experiment_type": "Deep Learning",
+    "model_name": "Functional_Residual",
+    "parameters": {
+      "epochs": 29
+    },
+    "metrics": {
+      "accuracy": 0.9144385026737968,
+      "precision": 0.9139784946236559,
+      "recall": 0.9139784946236559,
+      "f1": 0.9139784946236559,
+      "roc_auc": 0.9615648592999314
+    },
+    "feature_importance": null,
+    "insights": "Trained for 29 epochs",
+    "timestamp": "2025-10-19T19:48:09.581306"
+  },
+  {
+    "experiment_id": 8,
+    "experiment_type": "Deep Learning",
+    "model_name": "Deep_Wide",
+    "parameters": {
+      "epochs": 49
+    },
+    "metrics": {
+      "accuracy": 0.9251336898395722,
+      "precision": 0.9072164948453608,
+      "recall": 0.946236559139785,
+      "f1": 0.9263157894736842,
+      "roc_auc": 0.9605353466026081
+    },
+    "feature_importance": null,
+    "insights": "Trained for 49 epochs",
+    "timestamp": "2025-10-19T19:48:09.581347"
+  }
+]
